@@ -1,0 +1,17 @@
+button {
+  width: auto;
+  padding: 8px 10px;
+  border: 0;
+  background-color: #FF9494;
+  border-radius: 4px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #FFE3E1;
+    color: black;
+}
+
+img.circle {
+    border-radius: 50%;
+}

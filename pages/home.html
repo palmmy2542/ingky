@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/layout.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/components.css" />
+    <script
+      src="https://kit.fontawesome.com/yourcode.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="container header-content">
+        <ul class="navbar">
+          <li class="ingky-logo"><a href="./home.html">Ingky</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a href="./education.html">Education</a></li>
+          <li><a href="./myprofile.html">My profile</a></li>
+        </ul>
+        <div class="row">
+          <div class="col greeting" style="">
+            <div >
+              <h1>••• Welcome to Ingky's profile!</h1>
+            </div>
+            <p>
+              ปัจจุบันเป็นนักศึกษาชั้นปีที่ 3
+              อยู่ที่วิทยาลัยนวัตกรรมสื่อสารสังคมเอกการจัดการธุรกิจไซเบอร์
+              ซึ่งการเรียนคณะนี้ทำให้การทำ Martketing
+              รวมถึงการสร้างสรรค์คอนเทนต์เป็นเรื่องที่คุ้นเคยอย่างมาก
+              แต่ระหว่างเรียนนั้น ดิฉันก็ได้รับโอกาสในการทำงานหลาย ๆ ตำแหน่ง
+              โดยเฉพาะอย่างยิ่งกับสายงานธุรกิจบันเทิง
+              ทำให้ดิฉันได้รับประสบการณ์และทักษะจากการทำงานมากมาย
+              และดิฉันมีความต้องการอย่างยิ่งที่อยากจะเติบโตในสายงานนี้
+              จึงทำให้มีความตั้งใจจะเก็บเกี่ยวประสบการณ์ให้ได้มากที่สุดเท่าที่จะเป็นไปได้
+            </p>
+            <div>
+              <button type="button">My profile</button>
+            </div>
+          </div>
+          <div class="col portfolio">
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: white;
+              "
+            >
+              <h2>My Portfolio</h2>
+              <button type="button" class="read-more-btn">Read more</button>
+            </div>
+            <div class="card">
+              <img
+                src="../images/port-be-on-cloud.png"
+                class="img-port"
+                style="width: 200px; height: 200px"
+              />
+              <div class="card-content">
+                <h3>
+                  Creative (Internship) & Subtitles @ Youtube : Be On Cloud
+                </h3>
+                <p>
+                  รับหน้าที่ผู้ช่วยทีม Creative และแปลซับภาษาอังกฤษพร้อมใส่ CC
+                  ใน Youtube
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="../images/port-story-of-nuggets.png"
+                class="img-port"
+                style="width: 200px; height: 200px"
+              />
+              <div class="card-content">
+                <h3>
+                  Creative / Videographer / Editor @ Youtube : stories of
+                  nuggets
+                </h3>
+                <p>
+                  รับหน้าที่ Creative, ผู้ถ่ายวิดิโอ, ผู้ตัดต่อวิดิโอ
+                  และทำปกคลิป
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="../images/port-be-on-cloud-2.png"
+                class="img-port"
+                style="width: 200px; height: 200px"
+              />
+              <div class="card-content">
+                <h3>
+                  Content Creator (Internship) @ Social Media : Be On Cloud
+                </h3>
+                <p>รับหน้าที่สร้างสรรค์คอนเทนต์ลงในช่องทางโซเชียลมีเดีย</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+  <style>
+    .greeting {
+      color: white;
+      max-width: 50vw;
+      width: 100%;
+      padding: 5%;
+      height: auto;
+      min-height: 91vh;
+      background-color: #FF69B4;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .portfolio {
+      position: relative;
+      max-width: 50vw;
+      width: 100%;
+      margin: 0px 10px;
+    }
+    .img-port {
+    }
+    .card {
+      background-color: white;
+      display: flex;
+      box-shadow: 0px 0px 8px -4px rgba(0, 0, 0, 0.47);
+      -webkit-box-shadow: 0px 0px 8px -4px rgba(0, 0, 0, 0.47);
+      -moz-box-shadow: 0px 0px 8px -4px rgba(0, 0, 0, 0.47);
+      margin-bottom: 12px;
+    }
+    .card:hover {
+      cursor: pointer;
+      transform: translateY(-5px) scale(1.005) translateZ(0);
+      box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+        0 24px 46px var(--box-shadow-color);
+    }
+
+    .card-content {
+      padding: 0px 10px;
+    }
+    .read-more-btn {
+      background-color: #5a213e;
+      color: white;
+    }
+  </style>
+</html>

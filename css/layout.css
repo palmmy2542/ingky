@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  font-family: "Rubik", "Kanit", sans-serif;
+}
+
+.header-content {
+  height: auto;
+  min-height: 90vh;
+}
+
+body {
+  background-color: #f2a1c7;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  display: block;
+  width: 100%;
+}
+
+.main-content {
+  padding: 0px 32px;
+  padding-bottom: 32px;
+}
